@@ -3,6 +3,11 @@
 every `yaris99` near a source playing "Why's this dealer" dances to the beat (squash & stretch).
 the song can come from a yaris itself (`/dealer`) or from a boombox script.
 
+> [!WARNING]
+> no boombox included. there's only a hook for your own boombox script, see [boombox integration](#boombox-integration).
+
+![yaris dance](../media/yaris_dance_fivem.gif)
+
 standalone, no framework needed.
 
 ## requirements
@@ -95,6 +100,9 @@ all in `config.lua`. the interesting ones:
 | `Texts` | | notifications |
 
 ## boombox integration
+
+> [!WARNING]
+> the boombox is not part of this script. you need your own (xsound based) and hook it up with these exports.
 
 server side exports, if you want a boombox script to make the cars dance too.
 the boombox plays its own audio, this script only does the dancing.
